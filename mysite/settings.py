@@ -25,7 +25,7 @@ SECRET_KEY = '-3fd!j*r-2+o71*4&ct2jas9j)3*5nf297ib$h-w0f6m^g=@ry'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['letunglion.pythonanywhere.com']
 
 
 # Application definition
@@ -120,3 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
