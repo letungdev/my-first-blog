@@ -25,7 +25,7 @@ SECRET_KEY = '-3fd!j*r-2+o71*4&ct2jas9j)3*5nf297ib$h-w0f6m^g=@ry'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['letunglion.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','letunglion.pythonanywhere.com']
 
 
 # Application definition
