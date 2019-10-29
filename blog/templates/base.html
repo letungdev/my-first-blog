@@ -17,7 +17,7 @@
   <link href="{% static 'css/style.css' %}" rel="stylesheet">
   <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
 </head>
-{% include "blog/header.html" %}
+{% include "header.html" %}
 <body>
 
 <div class="mt-5 pt-4">
@@ -40,8 +40,8 @@
     {% block extra_body %}
     {% endblock %}
 
-    {% include "blog/footer.html" %}
-    {% include "blog/scripts.html" %}
+    {% include "footer.html" %}
+    {% include "scripts.html" %}
 
     {% block extra_scripts %}
     {% endblock extra_scripts %}
